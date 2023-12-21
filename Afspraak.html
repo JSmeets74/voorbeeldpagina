@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tandartsafspraak</title>
+    </head>
+    <body>
+        <div>
+            <h1>Tandartsparktijk KiesKeurig</h1>
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin libero orci, placerat non risus vitae, commodo viverra justo. Aliquam vel nisi ex. Suspendisse hendrerit gravida pretium. Mauris congue ornare neque, nec vestibulum nulla placerat ut. Ut feugiat vitae mauris nec feugiat. Sed vestibulum ultrices sem ut tincidunt. Integer vel scelerisque sapien, dignissim mollis risus. Aenean porta arcu vel metus mattis gravida.
+                Aenean iaculis, ante vitae pharetra tempor, metus nibh ornare nunc, ac posuere eros orci quis lacus. 
+                Vivamus eget ligula ac velit ornare auctor eget at mi. Mauris id malesuada lacus. Maecenas aliquam et quam ut aliquet. 
+                Proin id orci justo. Vivamus quis egestas tellus, ut fermentum nisl. Duis euismod imperdiet justo non euismod.
+
+                Etiam ullamcorper commodo nulla, sit amet tincidunt elit placerat id. Donec in cursus ipsum. 
+                Aliquam tempor sapien orci, ut scelerisque nulla lacinia ut. Suspendisse potenti. 
+                Donec tincidunt viverra blandit. Maecenas vitae vulputate erat. Vivamus iaculis est vel elementum feugiat. 
+                Nunc purus augue, pharetra condimentum sollicitudin ut, dignissim eget tortor.
+            </p>
+        </div>
+        <figure>
+            <img src="Tandartsfoto1.jpg" alt="tandartsstoel" title="Tandartsstoel" width="300" height="200">
+            <img src="Tandartsfoto2.jpg"alt="tandenborstel" title="Tandenborstel" width="300" height="200">
+            <img src="Tandartsfoto3.jpg"alt="röntgenfoto gebid" title="Rontgenfoto gebid" width="300" height="200">
+        </figure> <br>
+        <form id="contactform" action="https://formspree.io/f/mjvqnnnd" method="post">
+            <fieldset>
+                <legend><b>Persoonlijke gegevens</b></legend><br>
+                <label for="naam">Naam:</label>
+                <input id="naam" type="text" name="naam"><br><br>
+                <input type="radio" name="geslacht" value="man" checked>Man
+                <input type="radio" name="geslacht" value="vrouw">Vrouw
+                <input type="radio" name="geslacht" value="anders">Anders <br><br>
+                <label for="adres">Adres:</label>
+                <input id="adres" type="text" name="adres"><br><br>
+                <label for="postcode">Postcode:</label>
+                <input id="postcode" type="text" name="postcode"><br><br>
+                <label for="woonplaats">Woonplaats:</label>
+                <input id="woonplaats" type="text" name="woonplaats"><br><br>
+            </fieldset>
+            <br><br>
+            <fieldset>
+                <legend><b>Beschrijving van de klachten</b></legend><br>
+                Selecteer een van onderstaande klachten<br>
+                <input type="checkbox" name="klachten" value="tandsteen">Tandsteen
+                <input type="checkbox" name="klachten" value="gebroken tand">Gebroken tand
+                <input type="checkbox" name="klachten" value="gaatje in tand">Gaatje in tand
+                <input type="checkbox" name="klachten" value="ontstoken tandvlees">Ontstoken tandvlees <br><br>
+                <label for="foto van de klacht">Upload een foto van de klacht</label>
+                <input type="file" id="foto van de klacht" name="foto van de klacht"><br><br>
+            </fieldset>
+            <br><br>
+            <fieldset>
+                <legend><b>Toelichting van de klachten</b></legend><br>
+                <label for="omschrijf uw klachten">Omschrijf uw klachten</label>
+                <textarea name="omschrijf uw klachten" maxlength="1500"></textarea><br><br>
+                Selecteer uw gewenste afspraakdatum<br>
+                <input type="date" name="datum" max="2024-12-31"><br><br>
+            </fieldset><br>
+            <input type="submit" value="Verzend">
+        </form>
+    </body>
+</html>
+
